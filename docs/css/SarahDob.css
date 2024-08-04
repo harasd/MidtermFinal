@@ -110,3 +110,28 @@ header h1 {
 .sidebar, .main-content {
     padding: 20px;
 }
+.about-me, .experience, .education, .awards {
+    margin-bottom: 20px;
+}
+
+.about-me h2, .experience-section h2, .education-section h2, .skills-section h2, .leadership h2 {
+    font-size: 24px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.job, .school, .award {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3, .award h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.job h4, .school h4, .award h4 {
+    font-size: 16px;
+    color: var(--primary-color);
+    margin: 5px 0;
+}
