@@ -67,3 +67,30 @@ body {
     margin-bottom: 20px;
     color: var(--accent-color);
 }
+.contact-info, .skills, .references, .sidebar-bottom {
+    margin-bottom: 20px;
+}
+
+.contact-info h3, .skills h2, .references h3, .sidebar-bottom h4 {
+    font-size: 18px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul, .skills ul, .references ul, .links {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li, .skills ul li, .references ul li {
+    margin-bottom: 10px;
+}
+
+.skill-list li i {
+    margin-right: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
