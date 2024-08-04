@@ -37,6 +37,7 @@ body {
     color: var(--white-color);
     padding: 20px;
 }
+
 .portrait {
     text-align: center;
     margin-bottom: 20px;
@@ -67,6 +68,7 @@ body {
     margin-bottom: 20px;
     color: var(--accent-color);
 }
+
 .contact-info, .skills, .references, .sidebar-bottom {
     margin-bottom: 20px;
 }
@@ -94,6 +96,7 @@ body {
 .main-content {
     padding: 20px;
 }
+
 header h1 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -110,6 +113,7 @@ header h1 {
 .sidebar, .main-content {
     padding: 20px;
 }
+
 .about-me, .experience, .education, .awards {
     margin-bottom: 20px;
 }
@@ -135,7 +139,6 @@ header h1 {
     color: var(--primary-color);
     margin: 5px 0;
 }
-
 
 p {
     line-height: 1.6;
@@ -166,4 +169,3 @@ p {
 [aria-hidden="true"] {
     display: none;
 }
-
