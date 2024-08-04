@@ -1,0 +1,39 @@
+/* Define CSS Variables */
+:root {
+    --background-image: url('../images/pic1.png');
+    --font-family: 'Arial', sans-serif;
+    --background-color: #f4f4f4;
+    --sidebar-width: 30%;
+    --main-content-width: 70%;
+    --white-color: #ffffff;
+    --primary-color: #2c3e50;
+    --accent-color: #f39c12;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-color: #f39c12;
+}
+
+/* Global Styles */
+body {
+    background-image: var(--background-image);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.sidebar {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 20px;
+}
