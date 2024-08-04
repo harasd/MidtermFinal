@@ -37,3 +37,33 @@ body {
     color: var(--white-color);
     padding: 20px;
 }
+.portrait {
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures the image stays within the portrait container */
+}
+
+.portrait img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.portrait img:hover {
+    transform: scale(1.1); /* Zoom in effect */
+}
+
+
+.name {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+}
